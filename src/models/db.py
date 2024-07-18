@@ -39,7 +39,6 @@ def create_tables():
         status VARCHAR(20) DEFAULT 'pending'
     );
     """
-
     create_cbu_rates_table = """
     CREATE TABLE IF NOT EXISTS cbu_rates (
         date DATE,
